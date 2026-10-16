@@ -1,0 +1,29 @@
+# EdgeCrafter API 服务依赖
+# 安装方式: pip install -r requirements_api.txt
+
+# Web 框架
+fastapi==0.109.0
+uvicorn==0.27.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+
+# 数据验证
+pydantic
+
+# HTTP 客户端
+requests==2.31.0
+
+# 图像处理
+Pillow==10.2.0
+
+# PyTorch (根据你的 CUDA 版本选择)
+# 对于 CUDA 11.8:
+# torch==2.1.0
+# torchvision==0.16.0
+
+# 对于 CUDA 12.1:
+# torch==2.2.0+cu121
+# torchvision==0.17.0+cu121
+
+# 可选: 进度条
+tqdm==4.66.1
